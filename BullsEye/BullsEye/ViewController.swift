@@ -10,16 +10,18 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    var currentValue = 50;
+    var currentValue: Int = 0
+    
+    @IBOutlet weak var slider: UISlider!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        let roundValue = slider.value.rounded()
+        currentValue = Int(roundValue)
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
     
     @IBAction func showAlert(){
