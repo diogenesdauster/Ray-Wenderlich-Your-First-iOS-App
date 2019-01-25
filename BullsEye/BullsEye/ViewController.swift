@@ -30,15 +30,7 @@ class ViewController: UIViewController {
 
     }
     
-    @IBAction func showAlert2(){
-        let alert = UIAlertController(title: "Knock Knock", message: "Who's there ?", preferredStyle: .actionSheet)
-        let action = UIAlertAction(title: "Ok", style: .default, handler: nil)
-        
-        alert.addAction(action)
-        
-        present(alert, animated: true, completion: nil)
-        
-    }
+
 
 
 }
