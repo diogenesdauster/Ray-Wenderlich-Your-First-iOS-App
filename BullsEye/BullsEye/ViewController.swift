@@ -10,6 +10,8 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    var currentValue = 50;
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -21,8 +23,8 @@ class ViewController: UIViewController {
     }
     
     @IBAction func showAlert(){
-        let alert = UIAlertController(title: "Hello, World!", message: "My first App", preferredStyle: .alert)
-        let action = UIAlertAction(title: "Awesome", style: .default, handler: nil)
+        let alert = UIAlertController(title: "Hello, World!", message: "My current Value is : \(currentValue)", preferredStyle: .alert)
+        let action = UIAlertAction(title: "OK", style: .default, handler: nil)
         
         alert.addAction(action)
         
@@ -30,7 +32,10 @@ class ViewController: UIViewController {
 
     }
     
-
+    @IBAction func sliderChange(_ slider: UISlider){
+        let roundValue = slider.value.rounded()
+        currentValue = Int(roundValue)
+    }
 
 
 }
