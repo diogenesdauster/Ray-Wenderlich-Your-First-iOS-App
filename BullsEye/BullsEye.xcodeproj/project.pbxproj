@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		278B73D521FC685800C279F6 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 278B73D421FC685800C279F6 /* AboutViewController.swift */; };
+		278B73D921FC6C2100C279F6 /* AboutAuthorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 278B73D821FC6C2100C279F6 /* AboutAuthorViewController.swift */; };
 		27BFA77B21599E0F007A5716 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27BFA77A21599E0F007A5716 /* AppDelegate.swift */; };
 		27BFA77D21599E0F007A5716 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27BFA77C21599E0F007A5716 /* ViewController.swift */; };
 		27BFA78021599E0F007A5716 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27BFA77E21599E0F007A5716 /* Main.storyboard */; };
@@ -17,6 +18,7 @@
 
 /* Begin PBXFileReference section */
 		278B73D421FC685800C279F6 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		278B73D821FC6C2100C279F6 /* AboutAuthorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutAuthorViewController.swift; sourceTree = "<group>"; };
 		27BFA77721599E0F007A5716 /* BullsEye.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BullsEye.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		27BFA77A21599E0F007A5716 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		27BFA77C21599E0F007A5716 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 				27BFA77A21599E0F007A5716 /* AppDelegate.swift */,
 				27BFA77C21599E0F007A5716 /* ViewController.swift */,
 				278B73D421FC685800C279F6 /* AboutViewController.swift */,
+				278B73D821FC6C2100C279F6 /* AboutAuthorViewController.swift */,
 				27BFA77E21599E0F007A5716 /* Main.storyboard */,
 				27BFA78121599E0F007A5716 /* Assets.xcassets */,
 				27BFA78321599E0F007A5716 /* LaunchScreen.storyboard */,
@@ -143,6 +146,7 @@
 				278B73D521FC685800C279F6 /* AboutViewController.swift in Sources */,
 				27BFA77D21599E0F007A5716 /* ViewController.swift in Sources */,
 				27BFA77B21599E0F007A5716 /* AppDelegate.swift in Sources */,
+				278B73D921FC6C2100C279F6 /* AboutAuthorViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
