@@ -22,8 +22,8 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        let roundValue = slider.value.rounded()
-        currentValue = Int(roundValue)
+//        let roundValue = slider.value.rounded()
+//        currentValue = Int(roundValue)
         startNewRound()
     }
 
@@ -72,6 +72,14 @@ class ViewController: UIViewController {
         let roundValue = slider.value.rounded()
         currentValue = Int(roundValue)
     }
+    
+    @IBAction func startOver(){
+        score = 0
+        round = 0
+        startNewRound()
+    }
+    
+    
 
     func startNewRound(){
         targetValue = Int.random(in: 1...100)
